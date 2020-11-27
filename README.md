@@ -3,5 +3,5 @@ Programming](https://cposc.org/sessions/putting-fun-functional-programming/).
 
 Click the button below to get started in Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edmcman/cposc-fun/HEAD?filepath=notebooks%2Focaml.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edmcman/cposc-fun/master)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edmcman/cposc-fun/master?filepath=notebooks%2Focaml.ipynb)
