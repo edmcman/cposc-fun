@@ -5,10 +5,8 @@ FROM akabe/ocaml-jupyter-datascience:debian8_ocaml4.05.0
 ARG NB_USER
 ARG NB_UID
 ENV USER ${NB_USER}
-ENV HOME /home/${NB_USER}
 
-RUN sudo adduser --disabled-password \
-    --gecos "Default user" \
-    --uid ${NB_UID} \
-    ${NB_USER}
-WORKDIR ${HOME}
+# Rename opam to the desired username
+RUN sudo usermod -l ${NB_USER} opam
+
+USER ${NB_USER}
