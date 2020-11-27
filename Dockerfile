@@ -10,4 +10,4 @@ RUN eval $(opam env) && ocaml-jupyter-opam-genspec
 RUN sudo jupyter kernelspec install --name ocaml-jupyter /home/opam/.opam/4.06/share/jupyter
 
 COPY . /home/opam
-sudo chown -R opam /home/opam
+RUN sudo chown -R opam /home/opam
