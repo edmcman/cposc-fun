@@ -2,7 +2,8 @@ name: 'Trigger-Binder-build'
 on:
   push:
     branches:
-      - master
+      - jsenv
+      - ocamlenv
 
 jobs:
   trigger-binder-build:
