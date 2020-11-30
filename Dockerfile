@@ -9,4 +9,7 @@ RUN opam install -y jupyter
 RUN eval $(opam env) && ocaml-jupyter-opam-genspec
 RUN sudo jupyter kernelspec install --name ocaml-jupyter /home/opam/.opam/4.06/share/jupyter
 
+RUN sudo pip3 install nbgitpuller
+RUN sudo jupyter serverextension enable nbgitpuller --sys-prefix
+
 COPY --chown=opam . /home/opam
