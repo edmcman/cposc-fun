@@ -1,7 +1,7 @@
 This repository has code samples and stuff for [Putting the Fun in Functional
 Programming](https://cposc.org/sessions/putting-fun-functional-programming/).
 
-Click the buttons below to get started in Binder:
+Click the buttons below to open the jupyter notebooks we'll be using in Binder.  It's free and you don't need to install anything.  The downside is that it can take a while (~5 minutes) to start up.  So if possible, load these at the beginning of our talk so you are ready to follow along when we get to the code examples!
 
 ## OCaml
 
