@@ -10,3 +10,7 @@ Click the buttons below to get started in Binder:
 ## Javascript
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edmcman/cposc-fun/jsenv?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fedmcman%252Fcposc-fun%26urlpath%3Dtree%252Fcposc-fun%252Fnotebooks%252F2-js.ipynb%26branch%3Dmaster)
+
+## Python
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/edmcman/cposc-fun/master?filepath=notebooks%2F3-python.ipynb)
